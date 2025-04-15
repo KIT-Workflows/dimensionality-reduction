@@ -2,8 +2,8 @@
 Dimensionality-Reduction for Gold clusters
 
 ## Create mamba env
-
-´mamba create -n redct_dim \
+```
+mamba create -n redct_dim \
   -c rapidsai -c nvidia -c conda-forge \
   python=3.9 \
   rapids=22.12 \
@@ -11,4 +11,4 @@ Dimensionality-Reduction for Gold clusters
   pandas \
   scikit-learn \
   -y
-´
+```
